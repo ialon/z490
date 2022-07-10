@@ -54,14 +54,6 @@
 				<key>Path</key>
 				<string>SSDT.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-GPU-DISABLE.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPU-DISABLE.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -689,7 +681,7 @@
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
-			<true/>
+			<false/>
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
